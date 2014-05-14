@@ -1,13 +1,23 @@
-.gradle
-build/
-.nb-gradle/
-**/.nb-gradle/
+#netbeans
+**.nb-gradle/
+
+#eclipse
 *.project
 *.classpath
 /.metadata
+**.settings/
 
-**/.settings/
-**/bin/
-**/build/
-**/.gradle
+#idea
+**.idea/
+**.iml
+**.ipr
+**.iws
+
+#idea gradle wrapper
+**gradlew
+**gradlew.bat
+**gradle/
+
+**build/
+**.gradle/
 
